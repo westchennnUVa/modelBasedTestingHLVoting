@@ -16,26 +16,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Vote.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Vote.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="80" column="23" lean-forward="false" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="73" column="35" lean-forward="false" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Logout.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Logout.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,8 +29,8 @@
       <file leaf-file-name="HLVotingAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/HLVotingAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -59,10 +39,48 @@
       <file leaf-file-name="HLVotingModel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/HLVotingModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="363">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#990#991#0" expanded="true" />
+                <element signature="e#1057#1058#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jhcl_clu3.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/independent/jhcl_clu3.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jhcl_123.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/independent/jhcl_123.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestHLVotingSelenium.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/TestHLVotingSelenium.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="40" column="66" lean-forward="true" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,8 +89,18 @@
       <file leaf-file-name="TestHLVoting.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/TestHLVoting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="227">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginValidate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LoginValidate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-120">
+              <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -84,20 +112,6 @@
             <state relative-caret-position="45">
               <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestHLVotingSelenium.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/TestHLVotingSelenium.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-                <element signature="e#931#932#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -167,9 +181,9 @@
         <option value="$PROJECT_DIR$/src/test/GpaModel.java" />
         <option value="$PROJECT_DIR$/src/test/GpaAdapter.java" />
         <option value="$PROJECT_DIR$/src/test/HLVotingAdapter.java" />
+        <option value="$PROJECT_DIR$/src/test/TestHLVotingSelenium.java" />
         <option value="$PROJECT_DIR$/src/test/TestHLVoting.java" />
         <option value="$PROJECT_DIR$/src/test/HLVotingModel.java" />
-        <option value="$PROJECT_DIR$/src/test/TestHLVotingSelenium.java" />
       </list>
     </option>
   </component>
@@ -355,7 +369,7 @@
       <recent name="$PROJECT_DIR$/web/WEB-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.49">
+  <component name="RunManager" selected="JUnit.TestHLVoting.testFire">
     <configuration default="false" name="TestHLVotingSelenium.test_openURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -396,6 +410,32 @@
       <option name="MAIN_CLASS_NAME" value="test.TestHLVotingSelenium" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestHLVoting.testFire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="HLVoting" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestHLVoting" />
+      <option name="METHOD_NAME" value="testFire" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -877,15 +917,17 @@
         </option>
       </method>
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.0.49" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TestHLVotingSelenium.test_openURL" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.TestHLVotingSelenium" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestHLVoting.testFire" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestHLVotingSelenium.test_openURL" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestHLVotingSelenium" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestHLVoting.testFire" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestHLVotingSelenium.test_openURL" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestHLVotingSelenium" />
       </list>
     </recent_temporary>
   </component>
@@ -900,28 +942,13 @@
       <option name="presentableId" value="Default" />
       <updated>1542313210099</updated>
       <workItem from="1542313214787" duration="10692000" />
-      <workItem from="1543341686789" duration="10819000" />
+      <workItem from="1543341686789" duration="13742000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHLVotingSelenium - 2018.11.27 at 17h 59m 29s.xml">
-      <configuration name="TestHLVotingSelenium" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestHLVotingSelenium - 2018.11.27 at 18h 12m 03s.xml">
       <configuration name="TestHLVotingSelenium" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestHLVotingSelenium_test_openURL - 2018.11.27 at 17h 56m 08s.xml">
-      <configuration name="TestHLVotingSelenium.test_openURL" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestHLVotingSelenium_test_openURL - 2018.11.27 at 17h 57m 08s.xml">
-      <configuration name="TestHLVotingSelenium.test_openURL" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestHLVotingSelenium_test_openURL - 2018.11.27 at 18h 00m 56s.xml">
-      <configuration name="TestHLVotingSelenium.test_openURL" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestHLVotingSelenium_test_openURL - 2018.11.27 at 18h 03m 30s.xml">
-      <configuration name="TestHLVotingSelenium.test_openURL" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestHLVotingSelenium_test_openURL - 2018.11.27 at 18h 17m 41s.xml">
       <configuration name="TestHLVotingSelenium.test_openURL" configurationId="JUnit" />
@@ -929,9 +956,30 @@
     <history-entry file="TestHLVotingSelenium_test_openURL - 2018.11.27 at 18h 18m 14s.xml">
       <configuration name="TestHLVotingSelenium.test_openURL" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestHLVoting_testFire - 2018.12.03 at 11h 20m 00s.xml">
+      <configuration name="TestHLVoting.testFire" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestHLVoting_testFire - 2018.12.03 at 11h 21m 00s.xml">
+      <configuration name="TestHLVoting.testFire" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestHLVoting_testFire - 2018.12.03 at 11h 21m 31s.xml">
+      <configuration name="TestHLVoting.testFire" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestHLVoting_testFire - 2018.12.03 at 11h 23m 01s.xml">
+      <configuration name="TestHLVoting.testFire" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestHLVoting_testFire - 2018.12.03 at 11h 24m 38s.xml">
+      <configuration name="TestHLVoting.testFire" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestHLVoting_testFire - 2018.12.03 at 11h 25m 33s.xml">
+      <configuration name="TestHLVoting.testFire" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestHLVoting_testFire - 2018.12.03 at 11h 27m 11s.xml">
+      <configuration name="TestHLVoting.testFire" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21511000" />
+    <option name="totallyTimeSpent" value="24434000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -965,9 +1013,9 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329927" sideWeight="0.49353796" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.49353796" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.49237472" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2536349" sideWeight="0.5076253" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -995,7 +1043,7 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1105,22 +1153,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/independent/jhcl_clu3.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LoginValidate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1253,26 +1285,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/HLVotingAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/TestGpa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TestHLVoting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1309,10 +1325,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/HLVotingAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/TestHLVotingSelenium.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="347">
+          <caret line="40" column="66" lean-forward="true" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#864#865#0" expanded="true" />
@@ -1321,12 +1345,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/independent/jhcl_clu3.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/independent/jhcl_123.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestHLVoting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LoginValidate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/HLVotingModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="363">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
           </folding>
         </state>
       </provider>

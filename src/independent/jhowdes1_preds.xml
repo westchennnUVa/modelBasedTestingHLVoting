@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <assertions>
 	<assertion>
-		<user>clu3</user>
-		<predict>s</predict>
+		<user>123</user>
+		<predict>1</predict>
 		<argument>12</argument>
-		<convinced>0</convinced>
-		<unsure>0</unsure>
-		<disagree>0</disagree>
-	</assertion>
-	<assertion>
-		<user>clu3</user>
-		<predict>21</predict>
-		<argument>123</argument>
 		<convinced>0</convinced>
 		<unsure>0</unsure>
 		<disagree>0</disagree>
