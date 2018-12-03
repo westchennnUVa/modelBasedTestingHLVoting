@@ -2,16 +2,16 @@
 <assertions>
 	<assertion>
 		<user>clu3</user>
-		<predict></predict>
-		<argument></argument>
+		<predict>s</predict>
+		<argument>12</argument>
 		<convinced>0</convinced>
 		<unsure>0</unsure>
 		<disagree>0</disagree>
 	</assertion>
 	<assertion>
 		<user>clu3</user>
-		<predict></predict>
-		<argument></argument>
+		<predict>21</predict>
+		<argument>123</argument>
 		<convinced>0</convinced>
 		<unsure>0</unsure>
 		<disagree>0</disagree>
