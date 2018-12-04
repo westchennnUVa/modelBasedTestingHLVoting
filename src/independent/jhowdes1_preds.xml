@@ -9,17 +9,9 @@
 		<disagree>0</disagree>
 	</assertion>
 	<assertion>
-		<user>clu3</user>
-		<predict>sad</predict>
+		<user>123</user>
+		<predict>c</predict>
 		<argument>sad</argument>
-		<convinced>1</convinced>
-		<unsure>0</unsure>
-		<disagree>0</disagree>
-	</assertion>
-	<assertion>
-		<user>clu3</user>
-		<predict>myOwnPrediction2</predict>
-		<argument>myOwnArguments2</argument>
 		<convinced>0</convinced>
 		<unsure>0</unsure>
 		<disagree>0</disagree>

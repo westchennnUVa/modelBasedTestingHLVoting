@@ -4,12 +4,10 @@ import nz.ac.waikato.modeljunit.Action;
 import nz.ac.waikato.modeljunit.FsmModel;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Random;
-import java.util.Set;
+import java.util.*;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -55,6 +53,7 @@ public class HLVotingModel implements FsmModel {
         driver.findElement(By.name("userPass")).sendKeys("123456");
         driver.findElement(By.name("loginButton")).click();
     }
+
 
     @Action
     public void login_with_valid_account(){
@@ -128,8 +127,8 @@ public class HLVotingModel implements FsmModel {
             boolean viewPredictionWithPredictions = driver.getPageSource().contains("Predictions ordered by the most agreed with: ");
             boolean viewPrediction = viewPredictionNoPredictions || viewPredictionWithPredictions;
             assertEquals("viewPredictionUnsuccessfully", viewPrediction, true);
-            boolean delete = driver.findElement(By.name("deletePred")).isDisplayed();
-            boolean vote = driver.findElement(By.name("voteform")).isDisplayed();
+            boolean delete = driver.getPageSource().contains("Your arguments");
+            boolean vote = driver.getPageSource().contains("Their arguments:");
             if(delete && vote)
                 state = State.PredictionPageWithOwnAndOtherPrediction;
             else if(delete)
@@ -179,7 +178,7 @@ public class HLVotingModel implements FsmModel {
             } catch (InterruptedException e) {
                 System.out.print(e.toString());
             }
-            boolean vote = driver.findElement(By.name("voteform")).isDisplayed();
+            boolean vote = driver.getPageSource().contains("Their arguments:");
             if(vote)
                 state = State.PredictionPageWithOwnAndOtherPrediction;
             else
@@ -201,8 +200,8 @@ public class HLVotingModel implements FsmModel {
             boolean viewPredictionWithPredictions = driver.getPageSource().contains("Predictions ordered by the most agreed with:");
             boolean viewPrediction = viewPredictionNoPredictions || viewPredictionWithPredictions;
             assertEquals("viewPredictionUnsuccessfully", true, viewPrediction);
-            boolean delete = driver.findElement(By.name("deletePred")).isDisplayed();
-            boolean vote = driver.findElement(By.name("voteform")).isDisplayed();
+            boolean delete = driver.getPageSource().contains("Your arguments");
+            boolean vote = driver.getPageSource().contains("Their arguments:");
             if(delete && vote)
                 state = State.PredictionPageWithOwnAndOtherPrediction;
             else if(delete)
@@ -211,6 +210,32 @@ public class HLVotingModel implements FsmModel {
                 state = State.PredictionPageWithOnlyOtherPrediction;
             else
                 state = State.PredictionPageWithoutPrediction;
+        }else{
+            state = State.InvisibleState;
+        }
+        teardown();
+    }
+
+    @Action
+    public void deletePrediction(){
+        setUpWebDriver();
+        validLogin();
+        driver.findElement(By.name("viewSubmit")).click();
+        if(state == State.PredictionPageWithOnlyOwnPrediction){
+            driver.findElement(By.xpath("(//input[@value='Delete Prediction'])[1]")).click();
+            boolean delete = driver.getPageSource().contains("Your arguments");
+            if(!delete){
+                state = State.PredictionPageWithoutPrediction;
+            }
+        }else if(state == State.PredictionPageWithOwnAndOtherPrediction){
+//            WebElement element = driver.findElement(By.xpath("(//input[@action='http://localhost:8080/Delete'])[1]"));
+//            element.submit();
+            driver.findElement(By.xpath("(//input[@value='Delete Prediction'])[1]")).click();
+//            boolean delete = doesWebElementExist(driver, By.name("deletePred"));
+            boolean delete = driver.getPageSource().contains("Your arguments");
+            if(!delete){
+                state = State.PredictionPageWithOnlyOtherPrediction;
+            }
         }else{
             state = State.InvisibleState;
         }
@@ -254,5 +279,4 @@ public class HLVotingModel implements FsmModel {
         }
         teardown();
     }
-
 }
