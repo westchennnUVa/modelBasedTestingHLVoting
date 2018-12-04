@@ -4,17 +4,14 @@ import nz.ac.waikato.modeljunit.Action;
 import nz.ac.waikato.modeljunit.FsmModel;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.*;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 public class HLVotingModel implements FsmModel {
 
-//    private enum GradeBoxState {Empty, NotEmpty}
     private WebDriver driver;
     private String url = "http://localhost:8080";
 
@@ -228,10 +225,7 @@ public class HLVotingModel implements FsmModel {
                 state = State.PredictionPageWithoutPrediction;
             }
         }else if(state == State.PredictionPageWithOwnAndOtherPrediction){
-//            WebElement element = driver.findElement(By.xpath("(//input[@action='http://localhost:8080/Delete'])[1]"));
-//            element.submit();
             driver.findElement(By.xpath("(//input[@value='Delete Prediction'])[1]")).click();
-//            boolean delete = doesWebElementExist(driver, By.name("deletePred"));
             boolean delete = driver.getPageSource().contains("Your arguments");
             if(!delete){
                 state = State.PredictionPageWithOnlyOtherPrediction;

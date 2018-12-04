@@ -13,10 +13,7 @@ public class TestHLVoting {
     @Test
     public void testFire() throws Exception {
         HLVotingModel hlVotingModel = new HLVotingModel();
-//        difference between these two tester
-//        Tester tester = new RandomTester(gpaModel);
         Tester tester = new LookaheadTester(hlVotingModel);
-//        Tester tester = new AllRoundTester(gpaModel);
 
         tester.buildGraph();
         tester.addListener(new VerboseListener());

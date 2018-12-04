@@ -29,7 +29,7 @@
       <file leaf-file-name="HLVotingModel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/HLVotingModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3075">
+            <state relative-caret-position="-639">
               <caret line="205" column="35" lean-forward="false" selection-start-line="205" selection-start-column="35" selection-end-line="205" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -918,14 +918,11 @@
       <option name="presentableId" value="Default" />
       <updated>1542313210099</updated>
       <workItem from="1542313214787" duration="10692000" />
-      <workItem from="1543341686789" duration="33450000" />
+      <workItem from="1543341686789" duration="33555000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHLVoting - 2018.12.03 at 21h 11m 04s.xml">
-      <configuration name="TestHLVoting" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestHLVoting - 2018.12.03 at 21h 14m 11s.xml">
       <configuration name="TestHLVoting" configurationId="JUnit" />
     </history-entry>
@@ -953,9 +950,12 @@
     <history-entry file="TestHLVoting_testFire - 2018.12.03 at 21h 37m 36s.xml">
       <configuration name="TestHLVoting.testFire" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestHLVoting_testFire - 2018.12.03 at 21h 45m 06s.xml">
+      <configuration name="TestHLVoting.testFire" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44142000" />
+    <option name="totallyTimeSpent" value="44247000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -968,7 +968,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -989,9 +989,9 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329927" sideWeight="0.49353796" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.49353796" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.49237472" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2536349" sideWeight="0.5076253" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1397,7 +1397,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/HLVotingModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3075">
+        <state relative-caret-position="-639">
           <caret line="205" column="35" lean-forward="false" selection-start-line="205" selection-start-column="35" selection-end-line="205" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
