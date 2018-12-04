@@ -25,7 +25,7 @@ public class TestHLVoting {
         tester.addCoverageMetric(new StateCoverage());
         tester.addCoverageMetric(new ActionCoverage());
 
-        tester.generate(20);
+        tester.generate(100);
         tester.printCoverage();
 
     }

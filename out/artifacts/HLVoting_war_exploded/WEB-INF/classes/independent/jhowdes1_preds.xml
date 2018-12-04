@@ -2,16 +2,48 @@
 <assertions>
 	<assertion>
 		<user>clu3</user>
-		<predict>s</predict>
-		<argument>12</argument>
+		<predict>myOwnPrediction4</predict>
+		<argument>myOwnArguments4</argument>
 		<convinced>0</convinced>
 		<unsure>0</unsure>
 		<disagree>0</disagree>
 	</assertion>
 	<assertion>
 		<user>clu3</user>
-		<predict>21</predict>
-		<argument>123</argument>
+		<predict>myOwnPrediction2</predict>
+		<argument>myOwnArguments2</argument>
+		<convinced>0</convinced>
+		<unsure>0</unsure>
+		<disagree>0</disagree>
+	</assertion>
+	<assertion>
+		<user>clu3</user>
+		<predict>myOwnPrediction9</predict>
+		<argument>myOwnArguments9</argument>
+		<convinced>0</convinced>
+		<unsure>0</unsure>
+		<disagree>0</disagree>
+	</assertion>
+	<assertion>
+		<user>clu3</user>
+		<predict>123</predict>
+		<argument>124</argument>
+		<convinced>2</convinced>
+		<unsure>0</unsure>
+		<disagree>0</disagree>
+	</assertion>
+	<assertion>
+		<user>123</user>
+		<predict>1</predict>
+		<argument>12</argument>
+		<convinced>4</convinced>
+		<unsure>0</unsure>
+		<disagree>0</disagree>
+	</assertion>
+	<assertion>
+		<user>clu3</user>
+		<predict>myOwnPrediction8</predict>
+		<argument>myOwnArguments8</argument>
 		<convinced>0</convinced>
 		<unsure>0</unsure>
 		<disagree>0</disagree>
